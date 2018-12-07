@@ -1,0 +1,34 @@
+
+Prerequisites
+-------------
+
+This code uses maven for compilation and dependency management.
+
+
+How to Run the Code
+-------------
+
+Train and Test
+./runhandles.sh <train> <test> <.vec> <.counts> null
+
+
+Research Code, Not Meant for Immediate Use
+-------------
+
+This code also builds context vectors for each twitter handle, resulting in large vectors for all
+seen usernames. This is a very large GB-sized data file, and not part of the repository.
+I am releasing this code for others to make use of the feature functions, but it will not run
+out-of-box due to the reliance on these large data files that were separately computed.
+
+Citation:
+Kevin McKelvey, Peter Goutzounis, Stephen da Cruz, and Nathanael Chambers. "Aligning Entity Names with Online Aliases on Twitter". 5th International Wkshp on NLP for Social Media, Valencia, Spain. 2017.
+
+
+Sample Data
+-------------
+usernames-devs.txt
+usernames-test.txt
+usernames-train.txt
+
+These are the twitter handles and entity names mined from Twitter's public API.
+
