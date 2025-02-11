@@ -1,5 +1,6 @@
 #!/bin/bash
 #
+# Script to run Twitter handles program.
 #
 
 if test -z "$2"; then
